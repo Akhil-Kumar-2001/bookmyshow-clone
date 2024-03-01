@@ -1,0 +1,3080 @@
+body{
+    margin:0;
+    
+    font-family: Roboto,sans-serif;
+}
+
+
+.main{
+    width: 100%;
+    height: 7500px;
+    
+}
+.header{
+    width: 100%;
+    height: 106px;
+    background-color:white;
+    
+}
+.upper_header{
+    float: left;
+    width: 100%;
+    height: 73px;
+    background-color:#fff;
+}
+
+.logo{
+    width: 13%;
+    height: 65px;
+    float: left;
+    cursor: pointer;
+}
+
+.image_container{
+   
+  height: 70px;
+  width: 130px;
+  float: left;
+  padding-left: 50px;
+  padding-top: 1px;
+  display: flex;
+}
+.seach{
+    height: 65px;
+    width: 100px;
+}
+
+.searchbox{
+ height: 30px;
+  width: 553px;
+  margin-top: -27px;
+  padding-left: 44px;
+  border-width: 1px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  float: left;
+}
+.searchbox::placeholder{
+   font-size: 15px;
+   font-family: roboto;
+   color: solid rgb(153, 153, 153);
+  
+}
+.search{
+    width: 39%;
+    float: left;
+    padding-left: 38px;
+    height: 39px;
+    padding-top: 15px;
+   
+}
+.search img{
+  width: 14px;
+  height: 15px;
+  padding-top: 11px;
+  padding-left: 14px;
+}
+.searchbody{
+    height: 37px;
+    width:598px ;
+    float: left;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;
+    margin-left: -9px;
+}
+.loc{
+    width: 29%;
+    float: left;
+}
+.location{
+  padding-left: 310px;
+  padding-top: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+}
+.sign{
+    float: left;
+  width: 5%;
+  margin-top: 20px;
+  margin-left: 33px;
+}
+.signin{
+    height: 29px;
+    width: 73px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: rgb(248, 68, 100);
+   text-align: center;
+   border-radius: 4px;
+   border: 1px solid rgb(248, 68, 100);
+   color: rgb(255, 255, 255);
+}
+
+.bar{
+    float: left;
+    width: 6%;
+    height: 65px;
+}
+.barimg{
+    width: 30%;
+    height: 21px;
+    padding-top: 24px;
+    padding-left: 35px;
+    cursor: pointer;
+}
+.lower_header{
+    width: 100%;
+    height: 41px;
+    margin-top: 3px;
+    background-color: rgb(245, 245, 245);
+    float: left;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}  
+
+.left{
+    width: 65%;
+    height: 41px;
+    float: left; 
+    display: flex;
+    gap: 23px;
+    padding-left: 52px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    margin-top: -3px;
+ 
+}
+
+.right{
+    width: 25%;
+    height: 41px;
+    float: left;
+    display: flex;
+    gap: 26px;
+    padding-left: 59px;
+    padding-top: 2px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    margin-top: -3px;
+}
+.content{
+    width: 100%;
+    height: 333px;
+    float: left;
+    background: rgb(235, 235, 235);
+    margin-top: 40px;
+}
+.contentbase{
+    width: 1296px;
+    height: 311px;
+    padding-top: 11px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.contentimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+.secmain{
+    width: 100%;
+    height: 5675px;
+    float: left;
+    background-color: #F4F5FF ;
+    
+}
+.recomented{
+    width: 100%;
+    height: 400px;
+    float: left;
+
+}
+.headrec{
+    width: 1240px;
+    height: 49px;
+
+}
+.lefthead{
+    color: rgb(51, 51, 51);
+    font-size: 23px;
+    font-weight: 794;
+    line-height: 0.5;
+    padding-top: 21px;
+    padding-left: 52px
+}
+.righthead{
+    margin-left: 1179px;
+    margin-top: -31px;
+    color: rgb(220, 53, 88);
+}
+.recimg{
+    width: 94%;
+  height: 354px;
+  
+  padding-left: 52px;
+  display: flex;
+  gap: 31px;
+}
+.recimg img{
+    width: 213px;
+    height: 353px;
+    border-radius: 9px;
+    cursor: pointer;
+   
+}
+.recdiscription{
+    width: 100%;
+    height: 57px;
+    float: left;
+    
+
+}
+.peremalu{
+    height: 60px;
+    width: 213px;
+    float: left;
+    padding-left: 52px;
+    cursor: pointer;
+}
+#pr{
+      margin-top: 12px;
+      font-size: 18px;
+}
+#pre{
+  margin-top: -17px;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+  font-family: Roboto;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.anweshippinKandethum{
+    height: 60px;
+    width: 213px;  
+    float: left;
+    padding-left: 31px;
+    cursor: pointer;
+
+}
+#an{
+    margin-top: 12px; 
+    font-size: 18px;
+}
+#anw{
+    margin-top: -17px;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: 1.5; 
+}
+.bramayugam{
+    height: 60px;
+    width: 213px;  
+    float: left;
+    padding-left: 31px;
+    cursor: pointer;
+}
+#br{
+    margin-top: 12px;
+    font-size: 18px; 
+}
+
+#bram{
+    margin-top: -17px;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: 1.5;   
+}
+.lalsalam{
+    height: 60px;
+    width: 213px;  
+    float: left;
+    padding-left: 31px; 
+    cursor: pointer;
+}   
+#la{
+    margin-top: 12px; 
+    font-size: 18px;  
+}
+#lal{
+    margin-top: -17px;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: 1.5;    
+}
+.fighter{
+    height: 60px;
+    width: 213px;  
+    float: left;
+    padding-left: 31px;
+    cursor: pointer;
+}
+#fi{
+    margin-top: 12px; 
+    font-size: 18px;  
+}
+
+#fig{
+    margin-top: -17px;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: 1.5;    
+}
+.banner1{
+    width: 100%;
+    height: 188px;
+    float: left;
+    margin-top: 124px;
+}
+.ban1{
+    width: 1193px;
+    height: 99px;
+    float: left;
+    padding-left: 52px;
+    padding-top: 44px;
+}    
+.ban1 img{
+    width: 100%;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+.bestoflive{
+    width: 100%;
+    height: 349px;
+    float: left;
+}
+.blhead{
+width: 256px;
+height: 28px;
+padding-left: 51px;
+color: rgb(51, 51, 51);
+font-size: 15px;
+font-weight: bolder;
+line-height: 1;
+padding-top: 21px;
+padding-left: 52px
+}
+.blimg{
+    padding-left: 51px;
+    padding-top: 23px;
+    display: flex;
+    gap: 32px;
+}
+.blimg img{
+    width: 213px;
+    height: 213px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+}
+.premierhead{
+    width: 100%;
+    height: 131px;
+    float: left;
+    background-color: rgb(43, 49, 72);
+}
+.premierheadbase{
+    width: 1192.3px;
+    height: 99.3px;
+    float: left;
+    padding-left: 51px;
+    padding-top: 15px;
+}
+.premierheadbase img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.premierbody{
+    width: 100%;
+    height: 510.233px;
+    float: left;
+    margin-top: 0;
+    background-color: rgb(43, 49, 72);
+}
+.premiercontentbox{
+    width: 1192px;
+    height: 473.2px;
+    padding-left: 52px;
+    padding-top: 22px;
+    float: left;
+}
+.premiercontentboxhead{
+    height: 48.1px;
+    width: 100%;
+    float: left;
+}
+.headtop{
+    width: 100%;
+    height: 28.08px;
+    float: left;
+}
+.leftheader{
+    width: 111px;
+    height: 28.2px;
+    float: left;
+}
+.rightheader{
+    width: 65px;
+    height: 100%;
+    float: left; 
+    padding-left: 1147px;
+    cursor: pointer;
+}
+#p1{
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: bolder;
+  line-height: 1.17;
+ 
+}
+#p2{
+    margin-top: -23px;
+  word-break: break-word;
+  color: rgb(220, 53, 88);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+}
+.headbottom{
+    height: 20.01px;
+    width: 100%;
+    float: left;
+}
+#p3{
+    margin-top: 0;
+    word-break: break-word;
+   color: rgb(255, 255, 255);
+   font-size: 15px;
+   font-weight: normal;
+   line-height: 1.43;
+ 
+}
+.premierlist{
+    height: 415.3px;
+    width: 1193px;
+    padding-left:0px;
+    padding-top: 11px;
+    float: left;
+    display: flex;
+    gap: 32px;
+}
+.thehill{
+    height: 377.3px;
+    width: 213px;
+    float: left;
+}
+.thehillimg{
+    width: 213px;
+    height:318px;
+    float: left;
+}
+.thehillimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.thehilldiscription{
+    width: 213;
+    height: 91.3px;
+    float: left;
+    cursor: pointer;
+}
+#h1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+}
+.thehillbottom{
+    margin-top: -18px;
+}
+#h2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 0.5;
+    float: left;
+}
+.aquaman{
+    height: 377.3px;
+    width: 213px;
+    float: left;
+}
+.aquamanimg{
+    width: 213px;
+    height:318px;
+    float: left;
+}
+.aquamanimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.aquamandiscription{
+    width: 213;
+    height: 91.3px;
+    float: left; 
+    cursor: pointer;
+}
+.aquamantop{
+    margin-top: -7px;
+}
+#a1{
+    color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.aquamanbottom{
+    margin-top: -23px;
+}
+#a2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 0.5;
+    float: left;
+}
+.migration{
+    height: 377.3px;
+    width: 213px;
+    float: left;
+}
+.migrationimg{
+    width: 213px;
+    height:318px;
+    float: left;
+}
+.migrationimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.migrationdiscription{
+    width: 213;
+    height: 91.3px;
+    float: left;
+    cursor: pointer;
+}
+#m1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+}
+.migrationbottom{
+    margin-top: -18px;
+}
+#m2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 0.5;
+    float: left;
+}    
+.camphideout{
+    height: 377.3px;
+    width: 213px;
+    float: left;
+}
+.camphideoutimg{
+    width: 213px;
+    height:318px;
+    float: left;
+}
+.camphideoutimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.camphideoutdiscription{
+    width: 213;
+    height: 91.3px;
+    float: left;
+    cursor: pointer;
+}
+#c1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+}
+.camphideoutbottom{
+    margin-top: -18px;
+}
+#c2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 0.5;
+    float: left;
+}    
+.jesusrevolution{
+    height: 377.3px;
+    width: 213px;
+    float: left;
+}
+.jesusrevolutionimg{
+    width: 213px;
+    height:318px;
+    float: left;
+}
+.jesusrevolutionimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.jesusrevolutiondiscription{
+    width: 213;
+    height: 91.3px;
+    float: left;
+    cursor: pointer;
+}
+#j1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+}
+.jesusrevolutionbottom{
+    margin-top: -18px;
+}
+#j2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 0.5;
+    float: left;
+}    
+.musicstudionbody{
+    width: 100%;
+    height: 622px;
+    float: left;
+}
+.musicstudioheader{
+    width: 300px;
+    height: 28.1px;
+    padding-top: 16px;
+    padding-left: 51px;
+}
+#ms{
+    color: rgb(51, 51, 51);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+.musicstudiolist{
+    width:1093px;
+    height: 440px;
+    padding-left: 52px;
+    padding-top: 32px;
+    float: left;
+    display: flex;
+    gap: 32px;
+}
+.willseeyounow{
+    height: 440px;
+    width: 213px;
+    float: left;
+ }
+ .willseeyounowimg{
+     width: 213px;
+     height: 354px;
+ }
+ .willseeyounowimg img{
+     width: 100%;
+     height: 100%;
+     border-radius: 8px; 
+     cursor: pointer;
+ }
+ .willseeyounowdiscri{
+    width: 213px;
+    height: 86px;
+    cursor: pointer;
+ }
+ #wi1{
+    color: rgb(34, 34, 34);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin-top: 13px;
+    
+ }
+ #wi2{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;
+ }
+ #wi3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1;
+ }
+ .ed{
+    height: 440px;
+    width: 213px;
+    float: left;
+ }
+ .edimg{
+     width: 213px;
+     height: 354px;
+ }
+ .edimg img{
+     width: 100%;
+     height: 100%;
+     border-radius: 8px; 
+     cursor: pointer;
+ }
+ .eddiscri{
+    width: 213px;
+    height: 109px;
+    cursor: pointer;
+ }
+ #ed1{
+    color: rgb(34, 34, 34);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin-top: 13px;
+    
+ }
+ #ed2{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;
+ }
+ #ed3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1;
+ }  
+ #ed4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;  
+ } 
+ .cultr{
+    height: 440px;
+    width: 213px;
+    float: left;
+ }
+ .cultrimg{
+     width: 213px;
+     height: 354px;
+ }
+ .cultrimg img{
+     width: 100%;
+     height: 100%;
+     border-radius: 8px; 
+     cursor: pointer;
+ }
+ .cultrdiscri{
+    width: 213px;
+    height: 109px;
+    cursor: pointer;
+ }
+ #cu1{
+    color: rgb(34, 34, 34);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin-top: 13px;
+    
+ }
+ #cu2{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;
+ }
+ #cu3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1;
+ }  
+ #cu4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;  
+ } 
+ .bmw{
+    height: 440px;
+    width: 213px;
+    float: left;
+ }
+ .bmwimg{
+     width: 213px;
+     height: 354px;
+ }
+ .bmwimg img{
+     width: 100%;
+     height: 100%;
+     border-radius: 8px; 
+     cursor: pointer;
+ }
+ .bmwdiscri{
+    width: 213px;
+    height: 109px;
+    cursor: pointer;
+ }
+ #bm1{
+    color: rgb(34, 34, 34);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin-top: 13px;
+    
+ }
+ #bm2{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;
+ }
+ #bm3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1;
+ }  
+ #bm4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;  
+ } 
+ .outdoor{
+    width: 100%;
+    height: 619px;
+    float: left;
+}
+.outdoorbody{
+    height: 572px;
+    width: 1093px;
+    float: left;
+    padding-left: 53px;
+    padding-top: 34px;
+}
+.outdoorheader{
+    width: 100%;
+    height: 28.1px;
+    float: left;
+    margin-top: -4px;
+}
+.outdoorheaderleft{
+ width: 200px;
+ height: 25px;
+ float: left;
+ color: rgb(51, 51, 51);
+ font-size: 17px;
+ line-height: 0;
+}
+.outdoorheaderright{
+    width: 55px;
+    height: 25px;
+    float: left;
+    padding-left: 1147px;
+    color: rgb(220, 53, 88);
+    font-size: 14px;
+    line-height: 1.43;
+    margin-top: -23px;
+    cursor: pointer;
+}
+.outdoorlist{
+    width: 100%;
+    height: 477px;
+    padding-top: 15px;
+    float: left;
+    display: flex;
+    gap: 32px;
+}
+.fitindia{
+    height: 477px;
+    width: 213px;
+    float: left;
+ }
+ .fitindiaimg{
+     width: 213px;
+     height: 354px;
+ }
+ .fitindiaimg img{
+     width: 100%;
+     height: 100%;
+     border-radius: 8px; 
+     cursor: pointer;
+ }
+ .fitindiadicri{
+    width: 213px;
+    height: 123px;
+    float: left; 
+    cursor: pointer;
+ }
+ #fig1{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;
+ }
+ #fig2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;
+}
+#fig3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;
+}
+ #fig4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1;
+ }
+ .aaraanu{
+    height: 477px;
+    width: 213px;
+    float: left;
+ }
+ .aaraanuimg{
+     width: 213px;
+     height: 354px;
+ }
+ .aaraanuimg img{
+     width: 100%;
+     height: 100%;
+     border-radius: 8px; 
+     cursor: pointer;
+ }
+ .aaraanudicri{
+    width: 213px;
+    height: 123px;
+    float: left; 
+    cursor: pointer;
+ }
+ .azeem{
+    height: 477px;
+    width: 213px;
+    float: left;
+ }
+ .azeemimg{
+     width: 213px;
+     height: 354px;
+ }
+ .azeemimg img{
+     width: 100%;
+     height: 100%;
+     border-radius: 8px; 
+     cursor: pointer;
+ }
+ #az1{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;
+ }
+ #az2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612; 
+ }
+ #az3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;  
+ }
+ #az4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1;
+ }
+.kisiko{
+    height: 477px;
+    width: 213px;
+    float: left;
+ }
+
+.kisikoimg{
+     width: 213px;
+     height: 354px;
+ }
+.kisikoimg img{
+     width: 100%;
+     height: 100%;
+     border-radius: 8px; 
+     cursor: pointer;
+ }
+
+ #kis1{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;
+    cursor: pointer;
+ }
+ #kis2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;
+    cursor: pointer;
+ }
+ #kis3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;
+    cursor: pointer;
+ }
+ #kis4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+ }
+.gautham{
+    height: 477px;
+    width: 213px;
+    float: left;
+ }
+
+.gauthamimg{
+     width: 213px;
+     height: 354px;
+ }
+.gauthamimg img{
+     width: 100%;
+     height: 100%;
+     border-radius: 8px; 
+     cursor: pointer;
+ }
+ #ga1{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;
+    cursor: pointer;
+ }
+ #ga2{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;
+    cursor: pointer;
+ }
+ .laughtertherapy{
+    width: 100%;
+    height: 540px;
+    float: left;
+ }
+ .laughtertherapybody{
+    height: 572px;
+    width: 1093px;
+    float: left;
+    padding-left: 53px;
+    padding-top: 34px;
+}
+.laughtertherapyhead{
+    width: 100%;
+    height: 28.1px;
+    float: left;
+    margin-top: -4px;
+}
+.laughterheadleft{
+    width: 208px;
+    height: 25px;
+    float: left;
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+    line-height: 0;
+    font-weight: 600;
+    margin-top: -34px;
+}
+.laughterheadright{
+    width: 100px;
+    height: 25px;
+    float: left;
+    padding-left: 1135px;
+    color: rgb(220, 53, 88);
+    font-size: 14px;
+    line-height: 1.43;
+    margin-top: -38px;
+    cursor: pointer;
+}
+.laughterlist{
+    width: 100%;
+    height: 477px;
+    margin-top: -18px;
+    float: left;
+    display: flex;
+    gap: 32px;
+}
+.gauthamlaughter{
+    height: 477px;
+    width: 213px;
+    float: left;
+}
+.gauthamlaughterimg{
+    width: 213px;
+    height: 354px;
+}
+.gauthamlaughterimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.gauthamlaughterdiscri{
+    width: 213px;
+    height: 123px;
+    float: left; 
+    cursor: pointer;
+}
+#gau1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;
+}
+#gau2{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;
+}
+.ironman{
+    height: 477px;
+    width: 213px;
+    float: left; 
+}
+.ironmanimg{
+    width: 213px;
+    height: 354px;
+}
+.ironmanimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.ironmandiscri{
+    width: 213px;
+    height: 123px;
+    float: left;   
+    cursor: pointer;
+}
+#ir1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px; 
+}
+#ir2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;
+}
+#ir3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;  
+}
+.glich{
+    height: 477px;
+    width: 213px;
+    float: left; 
+}
+.glichimg{
+    width: 213px;
+    height: 354px;  
+}
+.glichimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.glichdiscri{
+    width: 213px;
+    height: 123px;
+    float: left;
+    cursor: pointer; 
+}
+#gl1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;
+}
+#gl2{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;
+}
+.navin{
+    height: 477px;
+    width: 213px;
+    float: left;   
+}
+.navinimg{
+    width: 213px;
+    height: 354px;   
+}
+.navinimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.navindiscri{
+    width: 213px;
+    height: 123px;
+    float: left;   
+    cursor: pointer;   
+}
+#nav1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;    
+}
+#nav2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;  
+}
+#nav3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;  
+}
+#nav4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1;  
+}
+.dailyglich{
+    height: 477px;
+    width: 213px;
+    float: left;   
+}
+.dailyglichimg{
+    width: 213px;
+    height: 354px; 
+}
+.dailyglichimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.dailyglichdiscri{
+    width: 213px;
+    height: 123px;
+    float: left;
+    cursor: pointer; 
+}
+#daily1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;
+   
+}
+#daily2{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+.popularevents{
+    width: 100%;
+    height: 589px;
+    float: left;
+ }
+ .populareventsbody{
+    height: 572px;
+    width: 1193px;
+    float: left;
+    padding-left: 53px;
+    padding-top: 31px;
+}
+.populareventshead{
+    width: 100%;
+    height: 28.1px;
+    float: left;
+    margin-top: 40px;
+}
+.populareventsleft{
+    width: 208px;
+    height: 25px;
+    float: left;
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+    line-height: 0;
+    font-weight: 600;
+    margin-top: -34px;
+}
+.populareventsright{
+    width: 100px;
+    height: 25px;
+    float: left;
+    padding-left: 1135px;
+    color: rgb(220, 53, 88);
+    font-size: 14px;
+    line-height: 1.43;
+    margin-top: -38px;
+    cursor: pointer;
+}
+.populareventslist{
+    width: 100%;
+    height: 477px;
+    margin-top: -18px;
+    float: left;
+    display: flex;
+    gap: 32px;
+}
+.focusing{
+    height: 477px;
+    width: 213px;
+    float: left;    
+}
+.focusingimg{
+    width: 213px;
+    height: 354px;   
+}
+.focusingimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.focusingdiscri{
+    width: 213px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#foc1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;    
+}
+#foc2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;  
+}
+#foc3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;  
+}
+#foc4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1;  
+}
+.exposure{
+    height: 477px;
+    width: 213px;
+    float: left;    
+}
+.exposureimg{
+    width: 213px;
+    height: 354px;   
+}
+.exposureimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.exposurediscri{
+    width: 213px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#exp1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;    
+}
+#exp2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;  
+}
+#exp3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;  
+}
+#exp4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1;  
+}
+.talksession{
+    height: 477px;
+    width: 213px;
+    float: left;    
+}
+.talksessionimg{
+    width: 213px;
+    height: 354px; 
+}
+.talksessionimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.talksessiondiscri{
+    width: 213px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#tal1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;    
+}
+#tal2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;  
+}
+#tal3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0;  
+}
+.business{
+    height: 477px;
+    width: 213px;
+    float: left;    
+}
+.businessimg{
+    width: 213px;
+    height: 354px; 
+}
+.businessimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.businessdiscri{
+    width: 213px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#bus1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;    
+}
+#bus2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;  
+}
+#bus3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+.medscience{
+    height: 477px;
+    width: 213px;
+    float: left;   
+}
+.medscienceimg{
+    width: 213px;
+    height: 354px; 
+}
+.medscienceimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.medsciencediscri{
+    width: 213px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#med1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;    
+}
+#med2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;  
+}
+#med3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+.topsports{
+    width: 100%;
+    height: 589px;
+    float: left;
+}
+.topsportsbody{
+    height: 572px;
+    width: 1193px;
+    float: left;
+    padding-left: 53px;
+    padding-top: 31px;
+}
+.topsportshead{
+    width: 100%;
+    height: 28.1px;
+    float: left;
+    margin-top: 40px;
+}
+.topsportsleft{
+    width: 320px;
+    height: 25px;
+    float: left;
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+    line-height: 0;
+    font-weight: 600;
+    margin-top: -39px;
+}
+.topsportslist{
+    width: 100%;
+    height: 477px;
+    margin-top: -25px;
+    float: left;
+    display: flex;
+    gap: 32px;
+}
+.mumbaibengaluru{
+    height: 477px;
+    width: 213px;
+    float: left;   
+}
+.mumbaibengaluruimg{
+    width: 213px;
+    height: 354px; 
+}
+.mumbaibengaluruimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.mumbaibengalurudiscri{
+    width: 214px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#mu1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;    
+}
+#mu2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;  
+}
+#mu3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+#mu4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1; 
+}
+.mumbaigoa{
+    height: 477px;
+    width: 213px;
+    float: left;   
+}
+.mumbaigoaimg{
+    width: 213px;
+    height: 354px; 
+}
+.mumbaigoaimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.mumbaigoadiscri{
+    width: 214px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#mum1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;   
+}
+#mum2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;  
+}
+#mum3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+#mum4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1; 
+}
+.mumbainorth{
+    height: 477px;
+    width: 213px;
+    float: left; 
+}
+.mumbainorthimg{
+    width: 213px;
+    height: 354px; 
+}
+.mumbainorthimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.mumbainorthdiscri{
+    width: 214px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#muno1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;   
+}
+#muno2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;  
+}
+#muno3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+#muno4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1; 
+}
+.mumbaiodisha{
+    height: 477px;
+    width: 213px;
+    float: left; 
+}
+.mumbaiodishaimg{
+    width: 213px;
+    height: 354px; 
+}
+.mumbaiodishaimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.mumbaiodishadiscri{
+    width: 214px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#muod1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;   
+}
+#muod2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612; 
+}#muod3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+#muod4{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1; 
+}
+.mumbaicity{
+    height: 477px;
+    width: 213px;
+    float: left; 
+}
+.mumbaicityimg{
+    width: 213px;
+    height: 354px; 
+}
+.mumbaicityimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.mumbaicitydiscri{
+    width: 214px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#mumbai1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;   
+}
+#mumbai2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612; 
+}
+#mumbai3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+.topsearches{
+    width: 100%;
+    height: 350px;
+    float: left;
+}
+.topsearchesbody{
+    width: 1193px;
+    height: 322px;
+    float: left;
+    margin-left: 53px;
+}
+.topsearcheshead{
+    margin-top: -5px;
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+    line-height: 0;
+    font-weight: 600;
+}
+.topsearcheslist{
+   width: 1193px;
+   height: 291px;
+   float: left;
+}
+.bodysection1{
+    width: 1193px;
+    height: 77px;
+    float: left;
+    display: flex;
+    gap: 17px;
+    margin-top: 19px;
+}
+.bramayugamt{
+    height: 99%;
+    width: 169px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    position: relative;
+    border-radius: 5px;
+}
+#brama1{
+    color: rgb(248, 68, 100);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-left: 17px;
+}
+#brama2{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    margin-top: -12px;
+    padding-left: 17px;
+}
+.premalut{
+    height: 99%;
+    width: 132px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    position: relative;
+    border-radius: 5px;
+}
+#prema1{
+    color: rgb(248, 68, 100);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-left: 17px;
+}
+#prema2{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    margin-top: -12px;
+    padding-left: 17px;
+}
+.manjummel{
+    height: 99%;
+    width: 204px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+}
+#manj1{
+    color: rgb(248, 68, 100);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-left: 17px;
+}
+#manj2{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    margin-top: -12px;
+    padding-left: 17px;
+}
+.malaikottai{
+    height: 99%;
+    width: 225px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    position: relative;
+    border-radius: 5px;
+}
+#malai1{
+    color: rgb(248, 68, 100);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-left: 17px;
+}
+#malai2{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    margin-top: -12px;
+    padding-left: 17px;
+}
+.anweshippin{
+    height: 99%;
+    width: 250px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    position: relative;
+    border-radius: 5px; 
+}
+#anwe1{
+    color: rgb(248, 68, 100);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-left: 17px;
+}
+#anwe2{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    margin-top: -12px;
+    padding-left: 17px;
+}
+.bodysection2{
+    width: 1193px;
+    height: 77px;
+    float: left;
+    display: flex;
+    gap: 17px;
+    margin-top: 19px;
+}
+.premam{
+    height: 99%;
+    width: 234px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    position: relative;
+    border-radius: 5px;  
+}
+#premam1{
+    color: rgb(248, 68, 100);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-left: 17px;
+}
+#premam2{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    margin-top: -12px;
+    padding-left: 17px;
+}
+.thundu{
+    height: 99%;
+    width: 127px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    position: relative;
+    border-radius: 5px;  
+}
+#thundu1{
+    color: rgb(248, 68, 100);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-left: 17px;
+}
+#thundu2{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    margin-top: -12px;
+    padding-left: 17px;
+}
+.lalsalaamt{
+    height: 99%;
+    width: 152px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    position: relative;
+    border-radius: 5px;  
+}
+#lalt1{
+    color: rgb(248, 68, 100);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-left: 17px;
+}
+#lalt2{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    margin-top: -12px;
+    padding-left: 17px;  
+}
+.ozler{
+    height: 99%;
+    width: 183px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    position: relative;
+    border-radius: 5px;  
+}
+#ozler1{
+    color: rgb(248, 68, 100);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-left: 17px;
+}
+#ozler2{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    margin-top: -12px;
+    padding-left: 17px;   
+}
+.bodysection3{
+    width: 1193px;
+    height: 77px;
+    float: left;
+    display: flex;
+    gap: 17px;
+    margin-top: 19px;
+}
+.demonslayer{
+    height: 99%;
+    width: 600px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    position: relative;
+    border-radius: 5px;   
+}
+#demon1{
+    color: rgb(248, 68, 100);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-left: 17px;
+}
+#demon2{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    margin-top: -12px;
+    padding-left: 17px;   
+}
+.explorefun{
+    width: 100%;
+    height: 589px;
+    float: left;
+}
+.explorefunbody{
+    height: 572px;
+    width: 1193px;
+    float: left;
+    padding-left: 53px;
+    padding-top: 31px;
+}
+.explorefunhead{
+    width: 100%;
+    height: 28.1px;
+    float: left;
+    margin-top: 40px;
+}
+.explorefunleft{
+    width: 320px;
+    height: 25px;
+    float: left;
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+    line-height: 0;
+    font-weight: 600;
+    margin-top: -39px;
+}
+.explorefunright{
+    width: 100px;
+    height: 25px;
+    float: left;
+    padding-left: 1135px;
+    color: rgb(220, 53, 88);
+    font-size: 14px;
+    line-height: 1.43;
+    margin-top: -38px;
+    cursor: pointer;
+}
+.explorefunlist{
+    width: 100%;
+    height: 477px;
+    margin-top: -25px;
+    float: left;
+    display: flex;
+    gap: 32px;
+}
+.imagicca{
+    height: 477px;
+    width: 213px;
+    float: left;   
+}
+.imagiccaimg{
+    width: 213px;
+    height: 354px; 
+}
+.imagiccaimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.imagiccadiscri{
+    width: 214px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#imagic1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;    
+}
+#imagic2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;  
+}
+#imagic3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+.wonderla{
+    height: 477px;
+    width: 213px;
+    float: left;   
+}
+.wonderlaimg{
+    width: 213px;
+    height: 354px; 
+}
+.wonderlaimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.wonderladiscri{
+    width: 214px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#wonder1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;    
+}
+#wonder2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;  
+}
+#wonder3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+.thehidden{
+    height: 477px;
+    width: 213px;
+    float: left;   
+}
+.thehiddenimg{
+    width: 213px;
+    height: 354px; 
+}
+.thehiddenimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.thehiddendiscri{
+    width: 214px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#thehidden1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;    
+}
+#thehidden2{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 612;  
+}
+#thehidden3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+.imagiccawater{
+    height: 477px;
+    width: 213px;
+    float: left;   
+}
+.imagiccawaterimg{
+    width: 213px;
+    height: 354px; 
+}
+.imagiccawaterimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.imagiccawaterdiscri{
+    width: 214px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#imw1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;    
+}
+#imw2{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+#imw3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1; 
+}
+.singlemixer{
+    height: 477px;
+    width: 213px;
+    float: left;   
+}
+.singlemixerimg{
+    width: 213px;
+    height: 354px; 
+}
+.singlemixerimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.singlemixerdiscri{
+    width: 214px;
+    height: 123px;
+    float: left;
+    cursor: pointer;   
+}
+#sim1{
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-top: 13px;    
+}
+#sim2{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 0; 
+}
+#sim3{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 1; 
+}
+.blank{
+    width: 100%;
+    height: 75px;
+    float: left;
+}
+.footer{
+    width: 100%;
+    height: 1632px;
+    float: left;
+}
+.footertop{
+    width: 100%;
+    height: 90px;
+    float: left;
+    background-color: rgb(49, 48, 53);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    
+
+}
+.footertopbody{
+    width: 1264px;
+    height: 58px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    float: left;
+}
+.houselogo{
+    width: 55px;
+    height: 100%;
+    float: left;
+}
+.houselogospace{
+    width: 36px;
+  height: 36px;
+  padding-left: 10px;
+  padding-top: 9px;
+}
+
+.houselogospace img{
+    width: 100%;
+    height: 100%;
+}
+.listshow{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 11.5px;
+    padding-top: 4px;
+    padding-left: 3px;
+    float: left;
+}
+.gotashow{
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding-left: 17.5px;
+    font-size: 18px;
+    float: left;
+}
+.contacttoday{
+    float: left;
+    padding-left: 172px;
+    padding-top: 5px;   
+}
+.contactbox{
+    width: 148px;
+    height: 44px;
+    padding-left: 7px;
+    font-size: 18px;
+    background-color: rgb(236, 94, 113);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center; 
+   
+}
+.contactbox p {
+    margin-top: 11px;
+}
+.support{
+    width: 100%;
+    height: 121px;
+    float: left;
+    margin-top: -1px;
+    background-color: rgb(64, 64, 67);
+}
+.supportbody{
+    width: 1265px;
+    height: 91px;
+    padding-left: 16px;
+    padding-top: 15px;
+    float: left;
+    display: flex;
+    gap: 256px;
+}
+.customercarelogo{
+    width: 123px;
+    height: 92px;
+    padding-left: 128px;
+    cursor: pointer;
+}
+.customercarelogo img{
+    width: 100%;
+    height: 100%;
+}
+.resendbookingslogo{
+     width: 183px;
+     height: 92px;
+     cursor: pointer;
+
+}
+.resendbookingslogo img{
+     width: 100%;
+     height: 100%;
+}
+.subscribetologo{
+    width: 179px;
+    height: 92px;
+    cursor: pointer;
+}
+.subscribetologo img{
+    width: 100%;
+    height: 100%;
+}
+.footerdicription{
+    width: 100% ;
+    height: 1115px;
+    float: left;
+    background-color: rgb(49, 48, 53);
+}
+.footerdiscrimain{
+    width: 1266px;
+    height: 1115px;
+    padding: 0px 16px;
+    float: left;
+}
+.moviesnow{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.moviesnowtop{
+    height: 13.2px;
+    width: 1266px;
+}
+.moviesnowtop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.moviesnowbottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.moviesnowbottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.moviesnowbottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.upcommingmovies{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.upcommingmoviestop{
+    height: 13.2px;
+    width: 1266px;
+}
+.upcommingmoviestop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.upcommingmoviesbottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.upcommingmoviesbottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.upcommingmoviesbottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.moviesbygenre{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.moviesbygenretop{
+    height: 13.2px;
+    width: 1266px;
+}
+.moviesbygenretop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.moviesbygenrebottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.moviesbygenrebottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.moviesbygenrebottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.moviesbylanguage{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.moviesbylanguagetop{
+    height: 13.2px;
+    width: 1266px;
+}
+.moviesbylanguagetop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.moviesbylanguagebottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.moviesbylanguagebottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.moviesbylanguagebottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.sportsevents{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.sportseventstop{
+    height: 13.2px;
+    width: 1266px;
+}
+.sportseventstop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.sportseventsbottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.sportseventsbottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.sportseventsbottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.eventsintopcities{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.eventsintopcitiestop{
+    height: 13.2px;
+    width: 1266px;
+}
+.eventsintopcitiestop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.eventsintopcitiesbottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.eventsintopcitiesbottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.eventsintopcitiesbottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.cinemasintopcities{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.cinemasintopcitiestop{
+    height: 13.2px;
+    width: 1266px;
+}
+.cinemasintopcitiestop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.cinemasintopcitiesbottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.cinemasintopcitiesbottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.cinemasintopcitiesbottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.playsintopcities{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.playsintopcitiestop{
+    height: 13.2px;
+    width: 1266px;
+}
+.playsintopcitiestop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.playsintopcitiesbottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.playsintopcitiesbottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.playsintopcitiesbottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.activitiesintopcities{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.activitiesintopcitiestop{
+    height: 13.2px;
+    width: 1266px;
+}
+.activitiesintopcitiestop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.activitiesintopcitiesbottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.activitiesintopcitiesbottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.activitiesintopcitiesbottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.moviesnowshowing{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.moviesnowshowingtop{
+    height: 13.2px;
+    width: 1266px;
+}
+.moviesnowshowingtop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.moviesnowshowingbottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.moviesnowshowingbottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.moviesnowshowingbottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.contriess{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.contriesstop{
+    height: 13.2px;
+    width: 1266px;
+}
+.contriesstop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.contriessbottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.contriessbottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.contriessbottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.helpdiscri{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.helpdiscritop{
+    height: 13.2px;
+    width: 1266px;
+}
+.helpdiscritop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.helpdiscribottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.helpdiscribottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.helpdiscribottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.bookmyshowexclusive{
+    height: 55px;
+    width: 1266px ;
+    padding-top: 29px;
+}
+.bookmyshowexclusivetop{
+    height: 13.2px;
+    width: 1266px;
+}
+.bookmyshowexclusivetop > p{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 0px 0px 20px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.bookmyshowexclusivebottom{
+    height: 18.75px;
+    width: 1266px;
+    float: left;
+    display: flex;
+    margin-top: 23px;
+    
+}
+.bookmyshowexclusivebottom p {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+    cursor: pointer;
+}
+
+.bookmyshowexclusivebottom h3 {
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.2px;
+    margin-top: 0;
+    cursor: pointer;
+}
+.bookmyshowbottomlogo{
+    width: 100%;
+    height: 306px;
+    float: left;
+    background-color: rgb(49, 48, 53);
+}
+.bottomlogobody{
+    height: 133px;
+    width: 1245px;
+    float: left;
+    padding-left: 26px;
+}
+.logoleftline{
+    width: 536px;
+    height: 1px;
+    background: rgb(93, 93, 95);
+    margin-top: 62px;
+    float: left;
+}
+.bottomlogo1{
+    width: 126px;
+    height: 36px;
+    text-decoration: none;
+    float: left;
+}
+.bottomlogo1 img {
+    width: 100%;
+    height: 100%;
+    margin-top: 42px;
+    margin-left: 23px;
+   
+}
+.logorightline{
+    width: 536px;
+    height: 1px;
+    background: rgb(93, 93, 95);
+    margin-top: 62px;
+    margin-left: 46px;
+    float: left;
+}
+.socialmedialogo{
+    height: 40px;
+    width: 296px;
+    float: left;
+    padding-left: 500px;
+    margin-top: -3px;
+    display: flex;
+    gap: 11px;
+}
+.lastdiscri{
+    width: 1236px;
+    height: 102px;
+    padding-top: 24px;
+    padding-left: 30px;
+    font-size: 12px;
+    float: left;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+
+
+
